@@ -43,6 +43,4 @@ public class Chapter5 {
  * Collections.sort(dates, new sortCompare()); System.out.println()
  * for(LocalDate d : dates) { } // 3. Loop the sorted dates and use the hashmap
  * to get what you are doing that day, print them both during each loop
- * 
- * }
  */
