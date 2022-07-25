@@ -3,8 +3,8 @@ package practice;
 import java.time.LocalDate;
 
 public class Task {
-	public LocalDate day;
-	public String schedule;
+	private LocalDate day;
+	private String schedule;
 
 	public Task(LocalDate day, String schedule) {
 		this.day = day;
@@ -13,5 +13,9 @@ public class Task {
 
 	public LocalDate getDay() {
 		return day;
+	}
+
+	public String getSchedule() {
+		return schedule;
 	}
 }

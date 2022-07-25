@@ -17,7 +17,7 @@ public class Chapter5 {
 
 		dates.sort(Comparator.comparing(Task::getDay));
 		for (Task str : dates) {
-			System.out.println(str.day + ":" + str.schedule);
+			System.out.println(str.getDay() + ":" + str.getSchedule());
 		}
 	}
 }
